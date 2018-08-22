@@ -14,8 +14,8 @@
  set(QT_LIBS Qt5::Widgets Qt5::Core Qt5::Gui)
  
  
- file(GLOB SRC src/ *.cc)
- file(GLOB HDR src/ *.h)
+ file(GLOB SRC src/*.cc)
+ file(GLOB HDR src/*.h)
  
  
  
